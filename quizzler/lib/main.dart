@@ -18,12 +18,10 @@ class Quizzler extends StatelessWidget {
     );
   }
 }
-
 class QuizPage extends StatefulWidget {
   @override
   _QuizPageState createState() => _QuizPageState();
 }
-
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scoreKepper=[];
   // List<String> questions=[
